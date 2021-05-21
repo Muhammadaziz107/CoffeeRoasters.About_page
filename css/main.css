@@ -1,0 +1,355 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* fraunces-regular - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v10-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/fraunces-v10-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fraunces-v10-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/fraunces-v10-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fraunces-v10-latin-regular.svg#Fraunces') format('svg');
+    /* Legacy iOS */
+}
+
+/* fraunces-900 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v10-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/fraunces-v10-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fraunces-v10-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/fraunces-v10-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fraunces-v10-latin-900.svg#Fraunces') format('svg');
+    /* Legacy iOS */
+}
+
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v5-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/barlow-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/barlow-v5-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/barlow-v5-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/barlow-v5-latin-regular.svg#Barlow') format('svg');
+    /* Legacy iOS */
+}
+
+/* barlow-700 - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v5-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/barlow-v5-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/barlow-v5-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/barlow-v5-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/barlow-v5-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/barlow-v5-latin-700.svg#Barlow') format('svg');
+    /* Legacy iOS */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header .container {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 20px;
+    text-transform: uppercase;
+}
+
+.site-header__site-nav {
+    margin-left: 40px;
+}
+
+.site-header__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-header__list-item {
+    margin-left: 33px;
+}
+
+.site-header-list-link {
+    color: #83888F;
+    text-decoration: none;
+}
+
+/* =============================site-header-end============================ */
+
+.site-main__intro-section .container {
+    background-image: url(../images/intro-img.jpg);
+    width: 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.intro-section__div-one {
+    width: 445px;
+    padding: 137px 85px;
+}
+
+.intro-section__heading {
+    color: white;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.intro-section__text {
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+/* ==============================intro-section-end=============================== */
+.site-main__section-one .container {
+    display: flex;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.section-one__img {
+    width: 445px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.section-one__div-one {
+    width: 540px;
+    margin-left: 125px;
+}
+
+.section-one__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.section-one__text {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}
+
+/* ==============================section-one-end=============================== */
+
+.site-main__section-two .container {
+    height: 474px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 250px;
+    padding: 0 85px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.section-two__div-one {
+    width: 540px;
+    height: 210px;
+}
+
+.section-two__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.section-two__text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.section-two__img {
+    border-radius: 8px;
+    margin-top: -180px;
+}
+
+/* ==============================section-two-end=============================== */
+
+.site-main__final-section .container {
+    margin-top: 170px;
+}
+
+.final-section__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.final-section__flex-div {
+    display: flex;
+    margin-top: 92px;
+    align-items: center;
+}
+
+.flex-div__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.flex-div__text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.final-section__div-one {
+    margin-right: 150px;
+}
+
+.final-section__div-two {
+    margin-right: 240px;
+}
+
+/* ===========================================site-main-end======================================== */
+
+.site-footer .container {
+    display: flex;
+    align-items: center;
+    background-color: #2C343E;
+    margin-top: 170px;
+    margin-bottom: 88px;
+}
+.site-footer__logo{
+    margin-right: 103px;
+    margin-left: 85px;
+}
+.site-footer__site-nav {
+    margin-left: 40px;
+}
+
+.site-footer__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-footer__list-item {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 20px;
+    text-transform: uppercase;
+}
+
+.site-footer__list-link{
+    color: #83888F;
+    text-decoration: none;
+}
+
+.site-footer__div{
+    margin-left: auto;
+    margin-right: 85px;
+}
+
+.site-footer__social-logo1{
+    margin-right: 24px;
+}
+
+.site-footer__social-logo2{
+    margin-right: 24px;
+}
