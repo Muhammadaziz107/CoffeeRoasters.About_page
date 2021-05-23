@@ -306,10 +306,12 @@ body {
     margin-top: 170px;
     margin-bottom: 88px;
 }
-.site-footer__logo{
+
+.site-footer__logo {
     margin-right: 103px;
     margin-left: 85px;
 }
+
 .site-footer__site-nav {
     margin-left: 40px;
 }
@@ -336,20 +338,20 @@ body {
     text-transform: uppercase;
 }
 
-.site-footer__list-link{
+.site-footer__list-link {
     color: #83888F;
     text-decoration: none;
 }
 
-.site-footer__div{
+.site-footer__div {
     margin-left: auto;
     margin-right: 85px;
 }
 
-.site-footer__social-logo1{
+.site-footer__social-logo1 {
     margin-right: 24px;
 }
 
-.site-footer__social-logo2{
+.site-footer__social-logo2 {
     margin-right: 24px;
 }
